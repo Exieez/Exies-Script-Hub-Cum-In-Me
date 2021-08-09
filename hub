@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.2
+-- Version: 3.3
 
 -- Instances:
 
@@ -20,11 +20,11 @@ local breaking = Instance.new("TextButton")
 local swag = Instance.new("TextButton")
 local jailbreak = Instance.new("TextButton")
 local jailbreakfarm = Instance.new("TextButton")
-local comingsoon = Instance.new("TextButton")
+local pet = Instance.new("TextButton")
 local TextButton = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local comingsoon = Instance.new("TextButton")
 local comingsoon_2 = Instance.new("TextButton")
-local comingsoon_3 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local Open = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
@@ -37,7 +37,7 @@ ScreenGui.ResetOnSpawn = false
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-main.Position = UDim2.new(0.270213515, 0, 0.171903208, 0)
+main.Position = UDim2.new(0.262878537, 0, 0.171903208, 0)
 main.Size = UDim2.new(0, 501, 0, 304)
 
 label.Name = "label"
@@ -154,7 +154,7 @@ chill.TextSize = 14.000
 breaking.Name = "breaking"
 breaking.Parent = main
 breaking.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-breaking.Position = UDim2.new(0.227396235, 0, 0.463453054, 0)
+breaking.Position = UDim2.new(0.253493011, 0, 0.463453054, 0)
 breaking.Size = UDim2.new(0, 114, 0, 42)
 breaking.Font = Enum.Font.SourceSans
 breaking.Text = "Breaking Point Aimbot"
@@ -174,8 +174,8 @@ swag.TextSize = 14.000
 jailbreak.Name = "jailbreak"
 jailbreak.Parent = main
 jailbreak.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-jailbreak.Position = UDim2.new(0.45479244, 0, 0.463453054, 0)
-jailbreak.Size = UDim2.new(0, 114, 0, 42)
+jailbreak.Position = UDim2.new(0.480889261, 0, 0.460163593, 0)
+jailbreak.Size = UDim2.new(0, 99, 0, 42)
 jailbreak.Font = Enum.Font.SourceSans
 jailbreak.Text = "Jailbreak"
 jailbreak.TextColor3 = Color3.fromRGB(252, 255, 255)
@@ -184,22 +184,22 @@ jailbreak.TextSize = 14.000
 jailbreakfarm.Name = "jailbreakfarm"
 jailbreakfarm.Parent = main
 jailbreakfarm.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-jailbreakfarm.Position = UDim2.new(0.68218863, 0, 0.460163593, 0)
-jailbreakfarm.Size = UDim2.new(0, 101, 0, 42)
+jailbreakfarm.Position = UDim2.new(0.678494036, 0, 0.460163623, 0)
+jailbreakfarm.Size = UDim2.new(0, 102, 0, 42)
 jailbreakfarm.Font = Enum.Font.SourceSans
 jailbreakfarm.Text = "Jailbreak Auto Farm"
 jailbreakfarm.TextColor3 = Color3.fromRGB(252, 255, 255)
 jailbreakfarm.TextSize = 14.000
 
-comingsoon.Name = "coming soon"
-comingsoon.Parent = main
-comingsoon.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-comingsoon.Position = UDim2.new(0.488724589, 0, 0.600122571, 0)
-comingsoon.Size = UDim2.new(0, 114, 0, 42)
-comingsoon.Font = Enum.Font.SourceSans
-comingsoon.Text = "More coming soon"
-comingsoon.TextColor3 = Color3.fromRGB(252, 255, 255)
-comingsoon.TextSize = 14.000
+pet.Name = "pet"
+pet.Parent = main
+pet.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+pet.Position = UDim2.new(0.488575876, 0, 0.601298273, 0)
+pet.Size = UDim2.new(0, 101, 0, 42)
+pet.Font = Enum.Font.SourceSans
+pet.Text = "Pet Simulator X"
+pet.TextColor3 = Color3.fromRGB(252, 255, 255)
+pet.TextSize = 14.000
 
 TextButton.Parent = main
 TextButton.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
@@ -212,25 +212,25 @@ TextButton.TextSize = 14.000
 
 UICorner.Parent = TextButton
 
+comingsoon.Name = "coming soon"
+comingsoon.Parent = main
+comingsoon.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+comingsoon.Position = UDim2.new(0.772009015, 0, 0.828897357, 0)
+comingsoon.Size = UDim2.new(0, 101, 0, 45)
+comingsoon.Font = Enum.Font.SourceSans
+comingsoon.Text = ""
+comingsoon.TextColor3 = Color3.fromRGB(252, 255, 255)
+comingsoon.TextSize = 14.000
+
 comingsoon_2.Name = "coming soon"
 comingsoon_2.Parent = main
 comingsoon_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-comingsoon_2.Position = UDim2.new(0.772009015, 0, 0.828897357, 0)
-comingsoon_2.Size = UDim2.new(0, 101, 0, 45)
+comingsoon_2.Position = UDim2.new(0.514672697, 0, 0.828897357, 0)
+comingsoon_2.Size = UDim2.new(0, 114, 0, 45)
 comingsoon_2.Font = Enum.Font.SourceSans
 comingsoon_2.Text = ""
 comingsoon_2.TextColor3 = Color3.fromRGB(252, 255, 255)
 comingsoon_2.TextSize = 14.000
-
-comingsoon_3.Name = "coming soon"
-comingsoon_3.Parent = main
-comingsoon_3.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-comingsoon_3.Position = UDim2.new(0.514672697, 0, 0.828897357, 0)
-comingsoon_3.Size = UDim2.new(0, 114, 0, 45)
-comingsoon_3.Font = Enum.Font.SourceSans
-comingsoon_3.Text = ""
-comingsoon_3.TextColor3 = Color3.fromRGB(252, 255, 255)
-comingsoon_3.TextSize = 14.000
 
 UICorner_2.Parent = main
 
@@ -248,15 +248,15 @@ UICorner_3.Parent = Open
 
 -- Scripts:
 
-local function PYAXNLP_fake_script() -- infinite.LocalScript 
+local function WWFIH_fake_script() -- infinite.LocalScript 
 	local script = Instance.new('LocalScript', infinite)
 
 	infinite.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(PYAXNLP_fake_script)()
-local function QSZE_fake_script() -- vali.LocalScript 
+coroutine.wrap(WWFIH_fake_script)()
+local function IEVXHR_fake_script() -- vali.LocalScript 
 	local script = Instance.new('LocalScript', vali)
 
 	vali.MouseButton1Down:connect(function()
@@ -275,16 +275,16 @@ local function QSZE_fake_script() -- vali.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QSZE_fake_script)()
-local function DSVYJJX_fake_script() -- toh.LocalScript 
+coroutine.wrap(IEVXHR_fake_script)()
+local function RHBU_fake_script() -- toh.LocalScript 
 	local script = Instance.new('LocalScript', toh)
 
 	toh.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EDGYCUNT231231/shiny-waffle/main/Obfusc1ated.txt"))() 
 	end)
 end
-coroutine.wrap(DSVYJJX_fake_script)()
-local function KNPVAQL_fake_script() -- afk.LocalScript 
+coroutine.wrap(RHBU_fake_script)()
+local function JHVZKP_fake_script() -- afk.LocalScript 
 	local script = Instance.new('LocalScript', afk)
 
 	afk.MouseButton1Down:connect(function()
@@ -309,24 +309,24 @@ local function KNPVAQL_fake_script() -- afk.LocalScript
 			ab.Text="Roblox Tried to kick you but we didnt let them kick you! Remember to use Thyroid!"wait(2)ab.Text="Status : Active"end)
 	end)
 end
-coroutine.wrap(KNPVAQL_fake_script)()
-local function SIBZY_fake_script() -- ragdoll.LocalScript 
+coroutine.wrap(JHVZKP_fake_script)()
+local function KIHX_fake_script() -- ragdoll.LocalScript 
 	local script = Instance.new('LocalScript', ragdoll)
 
 	ragdoll.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 	end)
 end
-coroutine.wrap(SIBZY_fake_script)()
-local function RFJIK_fake_script() -- mm.LocalScript 
+coroutine.wrap(KIHX_fake_script)()
+local function PSUA_fake_script() -- mm.LocalScript 
 	local script = Instance.new('LocalScript', mm)
 
 	mm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(RFJIK_fake_script)()
-local function NEVNSDK_fake_script() -- backflip.LocalScript 
+coroutine.wrap(PSUA_fake_script)()
+local function WOEBXMM_fake_script() -- backflip.LocalScript 
 	local script = Instance.new('LocalScript', backflip)
 
 	backflip.MouseButton1Down:connect(function()
@@ -421,24 +421,24 @@ local function NEVNSDK_fake_script() -- backflip.LocalScript
 		print("made by Zizzy#0001")
 	end)
 end
-coroutine.wrap(NEVNSDK_fake_script)()
-local function RLQM_fake_script() -- darkhub.LocalScript 
+coroutine.wrap(WOEBXMM_fake_script)()
+local function RPQZTQ_fake_script() -- darkhub.LocalScript 
 	local script = Instance.new('LocalScript', darkhub)
 
 	darkhub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/yCrBkPaY'), true))()
 	end)
 end
-coroutine.wrap(RLQM_fake_script)()
-local function VYMUAF_fake_script() -- fecar.LocalScript 
+coroutine.wrap(RPQZTQ_fake_script)()
+local function EBIPWV_fake_script() -- fecar.LocalScript 
 	local script = Instance.new('LocalScript', fecar)
 
 	fecar.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
 	end)
 end
-coroutine.wrap(VYMUAF_fake_script)()
-local function WWEUQT_fake_script() -- chill.LocalScript 
+coroutine.wrap(EBIPWV_fake_script)()
+local function OGQPX_fake_script() -- chill.LocalScript 
 	local script = Instance.new('LocalScript', chill)
 
 	chill.MouseButton1Down:connect(function()
@@ -1277,40 +1277,48 @@ local function WWEUQT_fake_script() -- chill.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WWEUQT_fake_script)()
-local function ZMPOKMW_fake_script() -- breaking.LocalScript 
+coroutine.wrap(OGQPX_fake_script)()
+local function IFEIY_fake_script() -- breaking.LocalScript 
 	local script = Instance.new('LocalScript', breaking)
 
 	breaking.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
 	end)
 end
-coroutine.wrap(ZMPOKMW_fake_script)()
-local function BWWAX_fake_script() -- swag.LocalScript 
+coroutine.wrap(IFEIY_fake_script)()
+local function DCPBB_fake_script() -- swag.LocalScript 
 	local script = Instance.new('LocalScript', swag)
 
 	swag.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(BWWAX_fake_script)()
-local function KVXSUWF_fake_script() -- jailbreak.LocalScript 
+coroutine.wrap(DCPBB_fake_script)()
+local function UYNJWXT_fake_script() -- jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak)
 
 	jailbreak.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(KVXSUWF_fake_script)()
-local function JPVBE_fake_script() -- jailbreakfarm.LocalScript 
+coroutine.wrap(UYNJWXT_fake_script)()
+local function VSVRU_fake_script() -- jailbreakfarm.LocalScript 
 	local script = Instance.new('LocalScript', jailbreakfarm)
 
 	jailbreakfarm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
 	end)
 end
-coroutine.wrap(JPVBE_fake_script)()
-local function PUQAE_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(VSVRU_fake_script)()
+local function KXHUOC_fake_script() -- pet.LocalScript 
+	local script = Instance.new('LocalScript', pet)
+
+	pet.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alleexxi/releasedscritps/main/script%20(1).lua'),true))()
+	end)
+end
+coroutine.wrap(KXHUOC_fake_script)()
+local function KHQVRZX_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1318,8 +1326,8 @@ local function PUQAE_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(PUQAE_fake_script)()
-local function YKKL_fake_script() -- Open.LocalScript 
+coroutine.wrap(KHQVRZX_fake_script)()
+local function JWBZLV_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	local frame = script.Parent.Parent.main  -- change “Test” to the name of the frane
@@ -1332,8 +1340,8 @@ local function YKKL_fake_script() -- Open.LocalScript
 	end)
 	
 end
-coroutine.wrap(YKKL_fake_script)()
-local function SQXVVE_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(JWBZLV_fake_script)()
+local function MZECWCT_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.main --name of the main ui here
@@ -1341,7 +1349,6 @@ local function SQXVVE_fake_script() -- ScreenGui.LocalScript
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(SQXVVE_fake_script)()
-
+coroutine.wrap(MZECWCT_fake_script)()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua'))()
