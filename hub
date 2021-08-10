@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.3
+-- Version: 3.2
 
 -- Instances:
 
@@ -7,27 +7,42 @@ local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local label = Instance.new("TextLabel")
 local infinite = Instance.new("TextButton")
-local vali = Instance.new("TextButton")
-local toh = Instance.new("TextButton")
-local afk = Instance.new("TextButton")
-local ragdoll = Instance.new("TextButton")
-local mm = Instance.new("TextButton")
-local backflip = Instance.new("TextButton")
-local darkhub = Instance.new("TextButton")
-local fecar = Instance.new("TextButton")
-local chill = Instance.new("TextButton")
-local breaking = Instance.new("TextButton")
-local swag = Instance.new("TextButton")
-local jailbreak = Instance.new("TextButton")
-local jailbreakfarm = Instance.new("TextButton")
-local pet = Instance.new("TextButton")
-local TextButton = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local vali = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local toh = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local afk = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ragdoll = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local mm = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local backflip = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local darkhub = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local fecar = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local chill = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local breaking = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local swag = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local jailbreak = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local jailbreakfarm = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local pet = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
 local comingsoon = Instance.new("TextButton")
 local comingsoon_2 = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local Open = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 
 --Properties:
 
@@ -43,6 +58,7 @@ main.Size = UDim2.new(0, 501, 0, 304)
 label.Name = "label"
 label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+label.BorderColor3 = Color3.fromRGB(41, 41, 41)
 label.Position = UDim2.new(0.0578842312, 0, 0.0240519308, 0)
 label.Size = UDim2.new(0, 443, 0, 50)
 label.Font = Enum.Font.SciFi
@@ -53,6 +69,7 @@ label.TextSize = 34.000
 infinite.Name = "infinite"
 infinite.Parent = main
 infinite.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+infinite.BorderColor3 = Color3.fromRGB(41, 41, 41)
 infinite.Position = UDim2.new(0.0279441122, 0, 0.190114066, 0)
 infinite.Size = UDim2.new(0, 114, 0, 42)
 infinite.Font = Enum.Font.SourceSans
@@ -61,9 +78,12 @@ infinite.TextColor3 = Color3.fromRGB(252, 255, 255)
 infinite.TextSize = 14.000
 infinite.TextStrokeColor3 = Color3.fromRGB(94, 10, 11)
 
+UICorner.Parent = infinite
+
 vali.Name = "vali"
 vali.Parent = main
 vali.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+vali.BorderColor3 = Color3.fromRGB(41, 41, 41)
 vali.Position = UDim2.new(0.261328369, 0, 0.190114066, 0)
 vali.Size = UDim2.new(0, 114, 0, 42)
 vali.Font = Enum.Font.SourceSans
@@ -71,9 +91,12 @@ vali.Text = "Valient Da Hood "
 vali.TextColor3 = Color3.fromRGB(255, 255, 255)
 vali.TextSize = 14.000
 
+UICorner_2.Parent = vali
+
 toh.Name = "toh"
 toh.Parent = main
 toh.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+toh.BorderColor3 = Color3.fromRGB(41, 41, 41)
 toh.Position = UDim2.new(0.488724589, 0, 0.190114066, 0)
 toh.Size = UDim2.new(0, 114, 0, 42)
 toh.Font = Enum.Font.SourceSans
@@ -81,9 +104,12 @@ toh.Text = "Tower Of Hell"
 toh.TextColor3 = Color3.fromRGB(252, 255, 255)
 toh.TextSize = 14.000
 
+UICorner_3.Parent = toh
+
 afk.Name = "afk"
 afk.Parent = main
 afk.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+afk.BorderColor3 = Color3.fromRGB(41, 41, 41)
 afk.Position = UDim2.new(0.71612078, 0, 0.190114066, 0)
 afk.Size = UDim2.new(0, 101, 0, 42)
 afk.Font = Enum.Font.SourceSans
@@ -91,9 +117,12 @@ afk.Text = "Anti AFK"
 afk.TextColor3 = Color3.fromRGB(252, 255, 255)
 afk.TextSize = 14.000
 
+UICorner_4.Parent = afk
+
 ragdoll.Name = "ragdoll"
 ragdoll.Parent = main
 ragdoll.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+ragdoll.BorderColor3 = Color3.fromRGB(41, 41, 41)
 ragdoll.Position = UDim2.new(0.0279441122, 0, 0.326783568, 0)
 ragdoll.Size = UDim2.new(0, 114, 0, 42)
 ragdoll.Font = Enum.Font.SourceSans
@@ -101,9 +130,12 @@ ragdoll.Text = "Ragdoll Engine"
 ragdoll.TextColor3 = Color3.fromRGB(252, 255, 255)
 ragdoll.TextSize = 14.000
 
+UICorner_5.Parent = ragdoll
+
 mm.Name = "mm"
 mm.Parent = main
 mm.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+mm.BorderColor3 = Color3.fromRGB(41, 41, 41)
 mm.Position = UDim2.new(0.261328369, 0, 0.326783568, 0)
 mm.Size = UDim2.new(0, 114, 0, 42)
 mm.Font = Enum.Font.SourceSans
@@ -111,9 +143,12 @@ mm.Text = "Murder Mystery 2"
 mm.TextColor3 = Color3.fromRGB(252, 255, 255)
 mm.TextSize = 14.000
 
+UICorner_6.Parent = mm
+
 backflip.Name = "backflip"
 backflip.Parent = main
 backflip.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+backflip.BorderColor3 = Color3.fromRGB(41, 41, 41)
 backflip.Position = UDim2.new(0.488724589, 0, 0.326783568, 0)
 backflip.Size = UDim2.new(0, 114, 0, 42)
 backflip.Font = Enum.Font.SourceSans
@@ -121,9 +156,12 @@ backflip.Text = "FE Backflip"
 backflip.TextColor3 = Color3.fromRGB(252, 255, 255)
 backflip.TextSize = 14.000
 
+UICorner_7.Parent = backflip
+
 darkhub.Name = "darkhub"
 darkhub.Parent = main
 darkhub.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+darkhub.BorderColor3 = Color3.fromRGB(41, 41, 41)
 darkhub.Position = UDim2.new(0.71612078, 0, 0.326783568, 0)
 darkhub.Size = UDim2.new(0, 101, 0, 42)
 darkhub.Font = Enum.Font.SourceSans
@@ -131,9 +169,12 @@ darkhub.Text = "DarkHub "
 darkhub.TextColor3 = Color3.fromRGB(252, 255, 255)
 darkhub.TextSize = 14.000
 
+UICorner_8.Parent = darkhub
+
 fecar.Name = "fecar"
 fecar.Parent = main
 fecar.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+fecar.BorderColor3 = Color3.fromRGB(41, 41, 41)
 fecar.Position = UDim2.new(0.0259481035, 0, 0.463453054, 0)
 fecar.Size = UDim2.new(0, 114, 0, 42)
 fecar.Font = Enum.Font.SourceSans
@@ -141,9 +182,12 @@ fecar.Text = "FE Car"
 fecar.TextColor3 = Color3.fromRGB(252, 255, 255)
 fecar.TextSize = 14.000
 
+UICorner_9.Parent = fecar
+
 chill.Name = "chill"
 chill.Parent = main
 chill.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+chill.BorderColor3 = Color3.fromRGB(41, 41, 41)
 chill.Position = UDim2.new(0.0259481035, 0, 0.600122571, 0)
 chill.Size = UDim2.new(0, 114, 0, 42)
 chill.Font = Enum.Font.SourceSans
@@ -151,9 +195,12 @@ chill.Text = "Chill GUI (R6)"
 chill.TextColor3 = Color3.fromRGB(252, 255, 255)
 chill.TextSize = 14.000
 
+UICorner_10.Parent = chill
+
 breaking.Name = "breaking"
 breaking.Parent = main
 breaking.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+breaking.BorderColor3 = Color3.fromRGB(41, 41, 41)
 breaking.Position = UDim2.new(0.253493011, 0, 0.463453054, 0)
 breaking.Size = UDim2.new(0, 114, 0, 42)
 breaking.Font = Enum.Font.SourceSans
@@ -161,9 +208,12 @@ breaking.Text = "Breaking Point Aimbot"
 breaking.TextColor3 = Color3.fromRGB(252, 255, 255)
 breaking.TextSize = 14.000
 
+UICorner_11.Parent = breaking
+
 swag.Name = "swag"
 swag.Parent = main
 swag.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+swag.BorderColor3 = Color3.fromRGB(41, 41, 41)
 swag.Position = UDim2.new(0.255340338, 0, 0.600122571, 0)
 swag.Size = UDim2.new(0, 114, 0, 42)
 swag.Font = Enum.Font.SourceSans
@@ -171,9 +221,12 @@ swag.Text = "Swag Mode Da Hood"
 swag.TextColor3 = Color3.fromRGB(252, 255, 255)
 swag.TextSize = 14.000
 
+UICorner_12.Parent = swag
+
 jailbreak.Name = "jailbreak"
 jailbreak.Parent = main
 jailbreak.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+jailbreak.BorderColor3 = Color3.fromRGB(41, 41, 41)
 jailbreak.Position = UDim2.new(0.480889261, 0, 0.460163593, 0)
 jailbreak.Size = UDim2.new(0, 99, 0, 42)
 jailbreak.Font = Enum.Font.SourceSans
@@ -181,9 +234,12 @@ jailbreak.Text = "Jailbreak"
 jailbreak.TextColor3 = Color3.fromRGB(252, 255, 255)
 jailbreak.TextSize = 14.000
 
+UICorner_13.Parent = jailbreak
+
 jailbreakfarm.Name = "jailbreakfarm"
 jailbreakfarm.Parent = main
 jailbreakfarm.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+jailbreakfarm.BorderColor3 = Color3.fromRGB(41, 41, 41)
 jailbreakfarm.Position = UDim2.new(0.678494036, 0, 0.460163623, 0)
 jailbreakfarm.Size = UDim2.new(0, 102, 0, 42)
 jailbreakfarm.Font = Enum.Font.SourceSans
@@ -191,15 +247,20 @@ jailbreakfarm.Text = "Jailbreak Auto Farm"
 jailbreakfarm.TextColor3 = Color3.fromRGB(252, 255, 255)
 jailbreakfarm.TextSize = 14.000
 
+UICorner_14.Parent = jailbreakfarm
+
 pet.Name = "pet"
 pet.Parent = main
 pet.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+pet.BorderColor3 = Color3.fromRGB(41, 41, 41)
 pet.Position = UDim2.new(0.488575876, 0, 0.601298273, 0)
 pet.Size = UDim2.new(0, 101, 0, 42)
 pet.Font = Enum.Font.SourceSans
 pet.Text = "Pet Simulator X"
 pet.TextColor3 = Color3.fromRGB(252, 255, 255)
 pet.TextSize = 14.000
+
+UICorner_15.Parent = pet
 
 TextButton.Parent = main
 TextButton.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
@@ -210,11 +271,12 @@ TextButton.Text = "X"
 TextButton.TextColor3 = Color3.fromRGB(252, 0, 8)
 TextButton.TextSize = 14.000
 
-UICorner.Parent = TextButton
+UICorner_16.Parent = TextButton
 
 comingsoon.Name = "coming soon"
 comingsoon.Parent = main
 comingsoon.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+comingsoon.BorderColor3 = Color3.fromRGB(41, 41, 41)
 comingsoon.Position = UDim2.new(0.772009015, 0, 0.828897357, 0)
 comingsoon.Size = UDim2.new(0, 101, 0, 45)
 comingsoon.Font = Enum.Font.SourceSans
@@ -225,6 +287,7 @@ comingsoon.TextSize = 14.000
 comingsoon_2.Name = "coming soon"
 comingsoon_2.Parent = main
 comingsoon_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+comingsoon_2.BorderColor3 = Color3.fromRGB(41, 41, 41)
 comingsoon_2.Position = UDim2.new(0.514672697, 0, 0.828897357, 0)
 comingsoon_2.Size = UDim2.new(0, 114, 0, 45)
 comingsoon_2.Font = Enum.Font.SourceSans
@@ -232,7 +295,7 @@ comingsoon_2.Text = ""
 comingsoon_2.TextColor3 = Color3.fromRGB(252, 255, 255)
 comingsoon_2.TextSize = 14.000
 
-UICorner_2.Parent = main
+UICorner_17.Parent = main
 
 Open.Name = "Open"
 Open.Parent = ScreenGui
@@ -244,19 +307,19 @@ Open.Text = "Open"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextSize = 14.000
 
-UICorner_3.Parent = Open
+UICorner_18.Parent = Open
 
 -- Scripts:
 
-local function WWFIH_fake_script() -- infinite.LocalScript 
+local function LOGRVFK_fake_script() -- infinite.LocalScript 
 	local script = Instance.new('LocalScript', infinite)
 
 	infinite.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(WWFIH_fake_script)()
-local function IEVXHR_fake_script() -- vali.LocalScript 
+coroutine.wrap(LOGRVFK_fake_script)()
+local function TPDM_fake_script() -- vali.LocalScript 
 	local script = Instance.new('LocalScript', vali)
 
 	vali.MouseButton1Down:connect(function()
@@ -275,16 +338,16 @@ local function IEVXHR_fake_script() -- vali.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(IEVXHR_fake_script)()
-local function RHBU_fake_script() -- toh.LocalScript 
+coroutine.wrap(TPDM_fake_script)()
+local function DFLQESX_fake_script() -- toh.LocalScript 
 	local script = Instance.new('LocalScript', toh)
 
 	toh.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EDGYCUNT231231/shiny-waffle/main/Obfusc1ated.txt"))() 
 	end)
 end
-coroutine.wrap(RHBU_fake_script)()
-local function JHVZKP_fake_script() -- afk.LocalScript 
+coroutine.wrap(DFLQESX_fake_script)()
+local function HSMM_fake_script() -- afk.LocalScript 
 	local script = Instance.new('LocalScript', afk)
 
 	afk.MouseButton1Down:connect(function()
@@ -309,24 +372,24 @@ local function JHVZKP_fake_script() -- afk.LocalScript
 			ab.Text="Roblox Tried to kick you but we didnt let them kick you! Remember to use Thyroid!"wait(2)ab.Text="Status : Active"end)
 	end)
 end
-coroutine.wrap(JHVZKP_fake_script)()
-local function KIHX_fake_script() -- ragdoll.LocalScript 
+coroutine.wrap(HSMM_fake_script)()
+local function SSDJ_fake_script() -- ragdoll.LocalScript 
 	local script = Instance.new('LocalScript', ragdoll)
 
 	ragdoll.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 	end)
 end
-coroutine.wrap(KIHX_fake_script)()
-local function PSUA_fake_script() -- mm.LocalScript 
+coroutine.wrap(SSDJ_fake_script)()
+local function FVWM_fake_script() -- mm.LocalScript 
 	local script = Instance.new('LocalScript', mm)
 
 	mm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(PSUA_fake_script)()
-local function WOEBXMM_fake_script() -- backflip.LocalScript 
+coroutine.wrap(FVWM_fake_script)()
+local function AXZNK_fake_script() -- backflip.LocalScript 
 	local script = Instance.new('LocalScript', backflip)
 
 	backflip.MouseButton1Down:connect(function()
@@ -421,24 +484,24 @@ local function WOEBXMM_fake_script() -- backflip.LocalScript
 		print("made by Zizzy#0001")
 	end)
 end
-coroutine.wrap(WOEBXMM_fake_script)()
-local function RPQZTQ_fake_script() -- darkhub.LocalScript 
+coroutine.wrap(AXZNK_fake_script)()
+local function MQVR_fake_script() -- darkhub.LocalScript 
 	local script = Instance.new('LocalScript', darkhub)
 
 	darkhub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/yCrBkPaY'), true))()
 	end)
 end
-coroutine.wrap(RPQZTQ_fake_script)()
-local function EBIPWV_fake_script() -- fecar.LocalScript 
+coroutine.wrap(MQVR_fake_script)()
+local function UXKM_fake_script() -- fecar.LocalScript 
 	local script = Instance.new('LocalScript', fecar)
 
 	fecar.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
 	end)
 end
-coroutine.wrap(EBIPWV_fake_script)()
-local function OGQPX_fake_script() -- chill.LocalScript 
+coroutine.wrap(UXKM_fake_script)()
+local function IKEV_fake_script() -- chill.LocalScript 
 	local script = Instance.new('LocalScript', chill)
 
 	chill.MouseButton1Down:connect(function()
@@ -1277,57 +1340,54 @@ local function OGQPX_fake_script() -- chill.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OGQPX_fake_script)()
-local function IFEIY_fake_script() -- breaking.LocalScript 
+coroutine.wrap(IKEV_fake_script)()
+local function YLGZ_fake_script() -- breaking.LocalScript 
 	local script = Instance.new('LocalScript', breaking)
 
 	breaking.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
 	end)
 end
-coroutine.wrap(IFEIY_fake_script)()
-local function DCPBB_fake_script() -- swag.LocalScript 
+coroutine.wrap(YLGZ_fake_script)()
+local function RINVCJ_fake_script() -- swag.LocalScript 
 	local script = Instance.new('LocalScript', swag)
 
 	swag.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(DCPBB_fake_script)()
-local function UYNJWXT_fake_script() -- jailbreak.LocalScript 
+coroutine.wrap(RINVCJ_fake_script)()
+local function QCXW_fake_script() -- jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak)
 
 	jailbreak.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(UYNJWXT_fake_script)()
-local function VSVRU_fake_script() -- jailbreakfarm.LocalScript 
+coroutine.wrap(QCXW_fake_script)()
+local function YSES_fake_script() -- jailbreakfarm.LocalScript 
 	local script = Instance.new('LocalScript', jailbreakfarm)
 
 	jailbreakfarm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
 	end)
 end
-coroutine.wrap(VSVRU_fake_script)()
-local function KXHUOC_fake_script() -- pet.LocalScript 
+coroutine.wrap(YSES_fake_script)()
+local function DVMXP_fake_script() -- pet.LocalScript 
 	local script = Instance.new('LocalScript', pet)
 
 	pet.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alleexxi/releasedscritps/main/script%20(1).lua'),true))()
 	end)
 end
-coroutine.wrap(KXHUOC_fake_script)()
-local function KHQVRZX_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(DVMXP_fake_script)()
+local function QPMASK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
 	
 end
-coroutine.wrap(KHQVRZX_fake_script)()
-local function JWBZLV_fake_script() -- Open.LocalScript 
+coroutine.wrap(QPMASK_fake_script)()
+local function DVYHZ_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	local frame = script.Parent.Parent.main  -- change “Test” to the name of the frane
@@ -1340,8 +1400,8 @@ local function JWBZLV_fake_script() -- Open.LocalScript
 	end)
 	
 end
-coroutine.wrap(JWBZLV_fake_script)()
-local function MZECWCT_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(DVYHZ_fake_script)()
+local function PDGZHWH_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.main --name of the main ui here
@@ -1349,6 +1409,4 @@ local function MZECWCT_fake_script() -- ScreenGui.LocalScript
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(MZECWCT_fake_script)()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua'))()
+coroutine.wrap(PDGZHWH_fake_script)()
