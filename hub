@@ -1438,4 +1438,3 @@ local function ZSCZL_fake_script() -- ScreenGui.LocalScript
 end
 coroutine.wrap(ZSCZL_fake_script)()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/chatlogs.lua'))()
