@@ -1,5 +1,5 @@
---BUG FIXES!!!!!!
--- Version: 2.3
+-- BUG FIXES...
+-- Version: 2.4
 
 -- Instances:
 
@@ -41,10 +41,15 @@ local UICorner_16 = Instance.new("UICorner")
 local comingsoon = Instance.new("TextButton")
 local comingsoon_2 = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local cord = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
-local open = Instance.new("TextButton")
+local cord = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
+local unlockall = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local bigaimbot = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local open = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
 
 --Properties:
 
@@ -54,15 +59,15 @@ ScreenGui.ResetOnSpawn = false
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-main.Position = UDim2.new(0.262878537, 0, 0.171903208, 0)
+main.Position = UDim2.new(0.292988032, 0, 0.176417887, 0)
 main.Size = UDim2.new(0, 501, 0, 304)
 
 label.Name = "label"
 label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 label.BorderColor3 = Color3.fromRGB(41, 41, 41)
-label.Position = UDim2.new(0.0578842312, 0, 0.0240519308, 0)
-label.Size = UDim2.new(0, 443, 0, 50)
+label.Position = UDim2.new(0.0578842312, 0, 0.0240519419, 0)
+label.Size = UDim2.new(0, 443, 0, 41)
 label.Font = Enum.Font.SciFi
 label.Text = "Exie's Script Hub"
 label.TextColor3 = Color3.fromRGB(253, 234, 234)
@@ -291,14 +296,16 @@ comingsoon_2.Name = "coming soon"
 comingsoon_2.Parent = main
 comingsoon_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 comingsoon_2.BorderColor3 = Color3.fromRGB(41, 41, 41)
-comingsoon_2.Position = UDim2.new(0.514672697, 0, 0.828897357, 0)
-comingsoon_2.Size = UDim2.new(0, 114, 0, 45)
+comingsoon_2.Position = UDim2.new(0.109780438, 0, 0.157219321, 0)
+comingsoon_2.Size = UDim2.new(0, 424, 0, 10)
 comingsoon_2.Font = Enum.Font.SourceSans
-comingsoon_2.Text = ""
+comingsoon_2.Text = "Update 6: Added BIG Paintball | FIxed Bugs"
 comingsoon_2.TextColor3 = Color3.fromRGB(252, 255, 255)
 comingsoon_2.TextSize = 14.000
 
-UICorner_17.Parent = main
+UICorner_17.Parent = comingsoon_2
+
+UICorner_18.Parent = main
 
 cord.Name = "cord"
 cord.Parent = main
@@ -311,7 +318,33 @@ cord.Text = "Discord Emojis"
 cord.TextColor3 = Color3.fromRGB(252, 255, 255)
 cord.TextSize = 14.000
 
-UICorner_18.Parent = cord
+UICorner_19.Parent = cord
+
+unlockall.Name = "unlockall"
+unlockall.Parent = main
+unlockall.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+unlockall.BorderColor3 = Color3.fromRGB(41, 41, 41)
+unlockall.Position = UDim2.new(0.0279441122, 0, 0.736166775, 0)
+unlockall.Size = UDim2.new(0, 116, 0, 42)
+unlockall.Font = Enum.Font.SourceSans
+unlockall.Text = "BIG Paintball Unlock All"
+unlockall.TextColor3 = Color3.fromRGB(252, 255, 255)
+unlockall.TextSize = 14.000
+
+UICorner_20.Parent = unlockall
+
+bigaimbot.Name = "bigaimbot"
+bigaimbot.Parent = main
+bigaimbot.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+bigaimbot.BorderColor3 = Color3.fromRGB(41, 41, 41)
+bigaimbot.Position = UDim2.new(0.263473064, 0, 0.736166775, 0)
+bigaimbot.Size = UDim2.new(0, 112, 0, 42)
+bigaimbot.Font = Enum.Font.SourceSans
+bigaimbot.Text = "BIG Paintball Aimbot"
+bigaimbot.TextColor3 = Color3.fromRGB(252, 255, 255)
+bigaimbot.TextSize = 14.000
+
+UICorner_21.Parent = bigaimbot
 
 open.Name = "open"
 open.Parent = ScreenGui
@@ -323,19 +356,19 @@ open.Text = "Open"
 open.TextColor3 = Color3.fromRGB(255, 255, 255)
 open.TextSize = 14.000
 
-UICorner_19.Parent = open
+UICorner_22.Parent = open
 
 -- Scripts:
 
-local function KLHJJZ_fake_script() -- infinite.LocalScript 
+local function IAWNIJM_fake_script() -- infinite.LocalScript 
 	local script = Instance.new('LocalScript', infinite)
 
 	infinite.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(KLHJJZ_fake_script)()
-local function YVGXSFY_fake_script() -- vali.LocalScript 
+coroutine.wrap(IAWNIJM_fake_script)()
+local function YQQLHS_fake_script() -- vali.LocalScript 
 	local script = Instance.new('LocalScript', vali)
 
 	vali.MouseButton1Down:connect(function()
@@ -354,16 +387,16 @@ local function YVGXSFY_fake_script() -- vali.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(YVGXSFY_fake_script)()
-local function RJLLJDR_fake_script() -- toh.LocalScript 
+coroutine.wrap(YQQLHS_fake_script)()
+local function JNDEQ_fake_script() -- toh.LocalScript 
 	local script = Instance.new('LocalScript', toh)
 
 	toh.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EDGYCUNT231231/shiny-waffle/main/Obfusc1ated.txt"))() 
 	end)
 end
-coroutine.wrap(RJLLJDR_fake_script)()
-local function OBOUYH_fake_script() -- afk.LocalScript 
+coroutine.wrap(JNDEQ_fake_script)()
+local function LSOQ_fake_script() -- afk.LocalScript 
 	local script = Instance.new('LocalScript', afk)
 
 	afk.MouseButton1Down:connect(function()
@@ -388,24 +421,24 @@ local function OBOUYH_fake_script() -- afk.LocalScript
 			ab.Text="Roblox Tried to kick you but we didnt let them kick you! Remember to use Thyroid!"wait(2)ab.Text="Status : Active"end)
 	end)
 end
-coroutine.wrap(OBOUYH_fake_script)()
-local function ZRJLOA_fake_script() -- ragdoll.LocalScript 
+coroutine.wrap(LSOQ_fake_script)()
+local function BXIQT_fake_script() -- ragdoll.LocalScript 
 	local script = Instance.new('LocalScript', ragdoll)
 
 	ragdoll.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 	end)
 end
-coroutine.wrap(ZRJLOA_fake_script)()
-local function UCHPOMU_fake_script() -- mm.LocalScript 
+coroutine.wrap(BXIQT_fake_script)()
+local function OPCV_fake_script() -- mm.LocalScript 
 	local script = Instance.new('LocalScript', mm)
 
 	mm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(UCHPOMU_fake_script)()
-local function FDEYCDP_fake_script() -- backflip.LocalScript 
+coroutine.wrap(OPCV_fake_script)()
+local function GOOZUBJ_fake_script() -- backflip.LocalScript 
 	local script = Instance.new('LocalScript', backflip)
 
 	backflip.MouseButton1Down:connect(function()
@@ -500,24 +533,24 @@ local function FDEYCDP_fake_script() -- backflip.LocalScript
 		print("made by Zizzy#0001")
 	end)
 end
-coroutine.wrap(FDEYCDP_fake_script)()
-local function AFGFX_fake_script() -- darkhub.LocalScript 
+coroutine.wrap(GOOZUBJ_fake_script)()
+local function BBTRPLC_fake_script() -- darkhub.LocalScript 
 	local script = Instance.new('LocalScript', darkhub)
 
 	darkhub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/yCrBkPaY'), true))()
 	end)
 end
-coroutine.wrap(AFGFX_fake_script)()
-local function ZPZKM_fake_script() -- fecar.LocalScript 
+coroutine.wrap(BBTRPLC_fake_script)()
+local function PKQK_fake_script() -- fecar.LocalScript 
 	local script = Instance.new('LocalScript', fecar)
 
 	fecar.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
 	end)
 end
-coroutine.wrap(ZPZKM_fake_script)()
-local function KRHV_fake_script() -- chill.LocalScript 
+coroutine.wrap(PKQK_fake_script)()
+local function VSZOW_fake_script() -- chill.LocalScript 
 	local script = Instance.new('LocalScript', chill)
 
 	chill.MouseButton1Down:connect(function()
@@ -1356,64 +1389,116 @@ local function KRHV_fake_script() -- chill.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KRHV_fake_script)()
-local function FJASQD_fake_script() -- breaking.LocalScript 
+coroutine.wrap(VSZOW_fake_script)()
+local function THPPQW_fake_script() -- breaking.LocalScript 
 	local script = Instance.new('LocalScript', breaking)
 
 	breaking.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
 	end)
 end
-coroutine.wrap(FJASQD_fake_script)()
-local function GUFCCRA_fake_script() -- swag.LocalScript 
+coroutine.wrap(THPPQW_fake_script)()
+local function DSCTLN_fake_script() -- swag.LocalScript 
 	local script = Instance.new('LocalScript', swag)
 
 	swag.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(GUFCCRA_fake_script)()
-local function RDAK_fake_script() -- jailbreak.LocalScript 
+coroutine.wrap(DSCTLN_fake_script)()
+local function IMRVU_fake_script() -- jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak)
 
 	jailbreak.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(RDAK_fake_script)()
-local function EXXKTVF_fake_script() -- jailbreakfarm.LocalScript 
+coroutine.wrap(IMRVU_fake_script)()
+local function XPDBNOH_fake_script() -- jailbreakfarm.LocalScript 
 	local script = Instance.new('LocalScript', jailbreakfarm)
 
 	jailbreakfarm.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
 	end)
 end
-coroutine.wrap(EXXKTVF_fake_script)()
-local function MXDNUSY_fake_script() -- pet.LocalScript 
+coroutine.wrap(XPDBNOH_fake_script)()
+local function WZHW_fake_script() -- pet.LocalScript 
 	local script = Instance.new('LocalScript', pet)
 
 	pet.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alleexxi/releasedscritps/main/script%20(1).lua'),true))()
 	end)
 end
-coroutine.wrap(MXDNUSY_fake_script)()
-local function CRNSDQ_fake_script() -- close.LocalScript 
+coroutine.wrap(WZHW_fake_script)()
+local function XSHJTR_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(CRNSDQ_fake_script)()
-local function BYXDW_fake_script() -- cord.LocalScript 
+coroutine.wrap(XSHJTR_fake_script)()
+local function RSDZH_fake_script() -- cord.LocalScript 
 	local script = Instance.new('LocalScript', cord)
 
 	cord.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/fS4gJxSm'),true))()
 	end)
 end
-coroutine.wrap(BYXDW_fake_script)()
-local function WFNZM_fake_script() -- open.LocalScript 
+coroutine.wrap(RSDZH_fake_script)()
+local function YGYURLD_fake_script() -- unlockall.LocalScript 
+	local script = Instance.new('LocalScript', unlockall)
+
+	cord.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('local library = require(game:GetService("ReplicatedStorage").Framework.Library)
+	
+			local env = getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game["First Person Controller"])
+	
+			local unlock_all = true
+	
+			--// Gun Bypass
+			local old_fire = library.Network.Fire
+			library.Network.Fire = newcclosure(function(self, ...)
+				local args = {...}
+	
+				if unlock_all and tostring(self) == "Request Respawn" then
+					args[1] = "1"
+				end
+	
+				return old_fire(self, unpack(args))
+			end)
+	
+			local old_own = env.DoesOwnGun
+			env.DoesOwnGun = function(...)
+				return (unlock_all and true) or old_own(...)
+			end
+			--
+	
+			--// Unlock All
+			local old_own_gun = library.GunCmds.DoesOwnGun
+			library.GunCmds.DoesOwnGun = newcclosure(function(self, ...)
+				return (unlock_all and true) or old_owngun(self, ...)
+			end)
+			--
+	
+			--// Unlock Offsale
+			for , gun in next, library.Directory.Guns do
+				gun["offsale"] = false
+			end
+			--'),true))()
+	end)
+end
+coroutine.wrap(YGYURLD_fake_script)()
+local function MDFOW_fake_script() -- bigaimbot.LocalScript 
+	local script = Instance.new('LocalScript', bigaimbot)
+
+	breaking.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source%22))()
+			', true))()
+	end)
+end
+coroutine.wrap(MDFOW_fake_script)()
+local function DSEBIM_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	local frame = script.Parent.Parent.main
@@ -1427,8 +1512,8 @@ local function WFNZM_fake_script() -- open.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WFNZM_fake_script)()
-local function ZSCZL_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(DSEBIM_fake_script)()
+local function DNUHYT_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.main --name of the main ui here
@@ -1436,5 +1521,6 @@ local function ZSCZL_fake_script() -- ScreenGui.LocalScript
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(ZSCZL_fake_script)()
+coroutine.wrap(DNUHYT_fake_script)()
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua'))()
